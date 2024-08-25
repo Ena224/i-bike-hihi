@@ -230,12 +230,12 @@
    
   <div class="px-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
             <!-- card-1 -->
-                                             <div class="card bg-base-100 w-96 shadow-xl py-5 items-center">
-                                              <figure class="px-10 pt-10 pb-10">
+                                             <div class="card bg-base-100 w-90 shadow-xl py-5 items-center">
+                                              <figure class="px-8 pt-10 pb-10">
                                                 <img
                                                   src="images/others/user-1.png"
                                                   alt="Shoes"
-                                                  class="rounded-full" width="150px" />
+                                                  class="rounded-full sm:w-1/2"  />
                                               </figure>
                                               <p class="text-center pb-5 text-sm px-2">Slate helps you see how 
                                                 many more days you need 
@@ -260,12 +260,12 @@
                                               </div>
                                             </div>
             <!-- card-2 -->
-                                             <div class="card bg-base-100 w-96 shadow-xl py-5 items-center">
-                                              <figure class="px-10 pt-10 pb-10">
+                                             <div class="card bg-base-100 w-90 shadow-xl py-5 items-center">
+                                              <figure class="px-8 pt-10 pb-10">
                                                 <img
                                                   src="images/others/user-2.png"
                                                   alt="Shoes"
-                                                  class="rounded-full" width="150px" />
+                                                  class="rounded-full sm:w-1/2"  />
                                               </figure>
                                               <p class="text-center pb-5 text-sm px-2">Slate helps you see how 
                                                 many more days you need 
@@ -290,12 +290,12 @@
                                               </div>
                                             </div>
             <!-- card-3 -->
-                                             <div class="card bg-base-100 w-96 shadow-xl py-5 items-center">
-                                              <figure class="px-10 pt-10 pb-10">
+                                             <div class="card bg-base-100 w-90 shadow-xl py-5 items-center">
+                                              <figure class="px-8 pt-10 pb-10">
                                                 <img
                                                   src="images/others/user-3.png"
                                                   alt="Shoes"
-                                                  class="rounded-full" width="150px" />
+                                                  class="rounded-full sm:w-1/2"  />
                                               </figure>
                                               <p class="text-center pb-5 text-sm px-2">Slate helps you see how 
                                                 many more days you need 
@@ -321,8 +321,78 @@
                                             </div>
   </div>
  </section>
+ <!-- -----------------------QUESTIONS page(using hero and accordion from daisy ui )------------------ -->
+  <section class="my-24">
+    <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
+    <!-- accordion from daisy ui  -->
+    <div class="hero ">
+      <div class="hero-content flex-col lg:flex-row">
+        <img
+          src="images/others/faq.png"
+          class="w-full rounded-lg shadow-2xl" />
+        <div class="space-y-5">
+          <div class="collapse collapse-arrow border border-black-300">
+          <input type="radio" name="my-accordion-2" checked="checked" />
+          <div class="collapse-title text-xl font-medium">What are the most important things I should know about riding a bike?</div>
+          <div class="collapse-content">
+            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border border-black-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a new one?</div>
+          <div class="collapse-content">
+            <p>hello, Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border border-black-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+          <div class="collapse-content">
+            <p>Remember ,  Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border border-black-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+          <div class="collapse-content">
+            <p>Remember ,  Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+          </div>
+        </div>
+        <div class="collapse collapse-arrow border border-black-300">
+          <input type="radio" name="my-accordion-2" />
+          <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+          <div class="collapse-content">
+            <p>Remember ,  Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
       </main>
       <!-- Footer section -->
-       <footer></footer>
+      <footer class="footer bg-black text-neutral-content p-10">
+        <aside>
+          
+          <p>
+            Biker ZOne
+            <br />
+            _Providing reliable tech since 1992
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get the App</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+             <img class="w-36" src="images/others/android.png" alt="">
+            </a>
+            <a>
+              <img class="w-36" src="images/others/ios.png" alt="">
+            </a>
+            
+          </div>
+        </nav>
+      </footer>
 </body>
 </html>
